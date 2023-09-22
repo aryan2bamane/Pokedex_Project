@@ -1,5 +1,5 @@
+import { Link } from 'react-router-dom'
 import './App.css'
-
 // Importing Components
 import CustomRoutes from './routes/CustomRoutes'
 
@@ -8,7 +8,10 @@ import CustomRoutes from './routes/CustomRoutes'
 function App() {
 
   return (
-    <>
+    <><h1>
+      <Link to="/">
+        Pokedex
+      </Link></h1>
       <CustomRoutes />
     </>
   )

@@ -12,11 +12,16 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ffbe00;
+  background: #ff0000;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ffbe00;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

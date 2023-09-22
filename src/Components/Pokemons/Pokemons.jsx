@@ -5,7 +5,6 @@ function Pokemons({ name, image ,id}) {
     return (
         <div className="pokemon">
             <Link to={`/pokemon/${id}`}>
-            
             <div>{name}</div>
             <img src={image} alt="" />
             </Link>
