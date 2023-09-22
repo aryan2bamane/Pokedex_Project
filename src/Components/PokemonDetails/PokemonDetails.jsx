@@ -1,7 +1,7 @@
 import "./PokemonDetails.css";
 function PokemonDetails() {
     return (
-        <>
+        <>Details
         </>
     );
 }
